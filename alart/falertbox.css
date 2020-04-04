@@ -1,0 +1,67 @@
+#fAlertBox-Box {
+  padding-bottom: 24px;
+  background: url('bg-box-bottom.png') bottom right no-repeat !important;
+  background: url('bg-box-bottom.gif') bottom right no-repeat;
+}
+
+#fAlertBox-InBox {
+  padding-top: 15px;
+  background: url('bg-box-top.png') top right no-repeat !important;	
+  background: url('bg-box-top.gif') top right no-repeat;	
+}
+
+#fAlertBox-BoxContent {
+  background: url('bg-box-body.png') top right repeat-y !important;
+  background: url('bg-box-body.gif') top right repeat-y;
+  padding: 0px 20px;
+}
+
+#fAlertBox-BoxContenedor {
+  padding: 0px 55px 5px 5px;
+  text-align: right;
+  font-family:Tahoma;
+  font-size:11px;
+  color:#000;
+}
+
+#fAlertBox-BoxContenedor h1,#fAlertBox-BoxContenedor h2,#fAlertBox-BoxContenedor h3,#fAlertBox-BoxContenedor b,#fAlertBox-BoxContenedor strong{
+  text-align: right;
+  font-family:Tahoma;
+  font-size:12px;
+  color:#000;
+  font-weight:bold;
+  margin:0px;
+  padding:0px;
+}
+
+#fAlertBox-Buttons{
+  text-align:left;
+}
+
+#fAlertBox-Buttons input {
+  margin: 10px 10px;
+}
+
+#fAlertBox-BoxContenedor #BoxPromptInput{
+  margin-top:5px;
+}
+
+#fAlertBox-Box .BoxAlert {
+  background: url('dialog-warning.png') top right no-repeat;
+}
+
+#fAlertBox-Box .BoxConfirm {
+  background: url('dialog-help.png') top right no-repeat;
+}
+
+#fAlertBox-Box .BoxPrompt {
+  background: url('dialog-help.png') top right no-repeat;
+}
+
+#fAlertBox-Box .BoxInfo {
+  background: url('dialog-information.png') top right no-repeat;
+}
+
+#fAlertBox-Box .BoxError {
+  background: url('dialog-error.png') top right no-repeat;
+}
